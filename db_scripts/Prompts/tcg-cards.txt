@@ -1,0 +1,61 @@
+[ação] 
+
+
+create a script to create a table in postgresql
+
+
+
+
+
+
+[contexto]
+
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to save collections set
+
+connect to table with foreign key
+
+
+
+[informações]
+
+the first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damange
+- weak
+- ressis.
+- retreat
+- cardNumberInCollection
+
+the second table: tbl_collections
+
+- id
+- collectionsSetName
+- release Date
+- totalCardsIncollection
+
+
+--------------------------------------
+Melhorias após criação da tabela pelo copilots. 
+
+otimaze the varchar fields to perfect size
+never use comments in my scripts please
+----------------------------------------
+create another tabel and link to tbl_cards
+- create a table to separete type
+- create a table to separete stage
+-----------------------------------------
+
+Consider table bellow "informar a tabela"
+create a initial seed to all tables with tcg pokemon cards, generate
+iserts scripts
+generate 20 insert records to table tbl_cards
+more 30 records
+more 30 records
+
